@@ -1,0 +1,26 @@
+/* add your styles here */
+h1{
+    text-align: center;
+    color: red;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;   
+}
+
+body{
+    margin: 2%;
+    padding: 2%;
+}
+
+img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+img:hover{
+    transform: scale(1.01);
+}
